@@ -8,31 +8,31 @@
     [Router] — x.x.x.x
         │
     [Switch PoE managed]
-        ├── ded      x.x.x.xx  (Kali Linux 2026)
+        ├── ded      x.x.x.xx  (Linux)
         ├── CYBER  x.x.x.xx  (Linux)
-        └── len   x.x.x.xx  (Parrot OS 7.2)
+        └── len   x.x.x.xx  (Parrot)
 
 ## 🖥️ Nodos
 
 | Nodo | Rol | OS |
 |---|---|---|
-| dedsec | Atacante principal | Kali Linux 2026 |
-| CYBER-CORE | Servidor de servicios | Linux |
-| lenovosec | Máquina víctima | Parrot OS 7.2 |
+| ded*** | Atacante principal | Linux|
+| CYB*** | Servidor de servicios | Linux |
+| len*** | Máquina víctima | Parrot|
 
 ## 🔧 Servicios instalados
 
-### dedsec (Atacante)
-- Kali Linux 2026 con 600+ herramientas
+### ded***(Atacante)
+- Kali Linux con 600+ herramientas
 - Nessus Essentials
 - UniFi Network Controller
 - Docker
 
-### CYBER-CORE (Servidor)
+### CY**** (Servidor)
 - Apache · MariaDB · PHP
 - DVWA (entorno de práctica web)
 
-### lenovosec (Víctima)
+### len*** (Víctima)
 - Servicios de red para práctica
 - Docker + Vulhub (158 entornos vulnerables)
 - DVWA (segundo objetivo web)
@@ -42,7 +42,7 @@
 | Tipo | Modelo (parcial) | Función |
 |---|---|---|
 | Router ISP | Hua*** HG8*** | Gateway principal |
-| Switch PoE | TP-L*** TL-SG3*** | Conectividad de nodos |
+| Switch PoE | TP-L*** TL***** | Conectividad de nodos |
 | Firewall | Ubiq*** USG-*** | Segmentación de red |
 | AP WiFi | Ubiq*** nano*** | Cobertura inalámbrica |
 | PDU rack | VEN*** HP-*** | Distribución de energía |
@@ -51,9 +51,9 @@
 
 | Nodo | Fabricante | Función |
 |---|---|---|
-| ded | Len*** M9*** | Atacante |
-| CYBER | HP T4*** | Servidor |
-| len | Len*** M72*** | Víctima |
+| ded | Len*** *** | Atacante |
+| CYBER | HP *** | Servidor |
+| len | Len*** *** | Víctima |
 
 ## 📊 Progreso
 
