@@ -41,11 +41,11 @@
 
 | Tipo | Modelo (parcial) | Función |
 |---|---|---|
-| Router ISP | Hua*** HG8*** | Gateway principal |
-| Switch PoE | TP-L*** TL***** | Conectividad de nodos |
-| Firewall | Ubiq*** USG-*** | Segmentación de red |
-| AP WiFi | Ubiq*** nano*** | Cobertura inalámbrica |
-| PDU rack | VEN*** HP-*** | Distribución de energía |
+| Router ISP | Hua*** *** | Gateway principal |
+| Switch PoE | TP-L*** ***** | Conectividad de nodos |
+| Firewall | Ubiq*** *** | Segmentación de red |
+| AP WiFi | Ubiq*** *** | Cobertura inalámbrica |
+| PDU rack | VEN*** *** | Distribución de energía |
 
 ## 🖥️ Hardware de cómputo
 
