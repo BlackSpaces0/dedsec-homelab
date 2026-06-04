@@ -8,9 +8,9 @@
     [Router] — x.x.x.x
         │
     [Switch PoE managed]
-        ├── dedsec      x.x.x.xx  (Kali Linux 2026)
-        ├── CYBER-CORE  x.x.x.xx  (Linux)
-        └── lenovosec   x.x.x.xx  (Parrot OS 7.2)
+        ├── ded      x.x.x.xx  (Kali Linux 2026)
+        ├── CYBER  x.x.x.xx  (Linux)
+        └── len   x.x.x.xx  (Parrot OS 7.2)
 
 ## 🖥️ Nodos
 
@@ -51,9 +51,9 @@
 
 | Nodo | Fabricante | Función |
 |---|---|---|
-| dedsec | Len*** M9*** | Atacante |
-| CYBER-CORE | HP T4*** | Servidor |
-| lenovosec | Len*** M72*** | Víctima |
+| ded | Len*** M9*** | Atacante |
+| CYBER | HP T4*** | Servidor |
+| len | Len*** M72*** | Víctima |
 
 ## 📊 Progreso
 
